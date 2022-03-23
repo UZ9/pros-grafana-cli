@@ -82,7 +82,7 @@ class ChartManager:
 
                     # Create the table
                     self.db.begin()
-                    self.table = self.db.create_table("data", date="text", **columns)
+                    self.table = self.db.create_table("data", time="text", **columns)
                     self.db.commit()
 
                     self.status = self.Status.RECEIVING_DATA
