@@ -10,7 +10,7 @@ setup(
     description='Command Line Interface for interacting with Grafana through a V5 Brain.',
     install_requires=[
         "click>=6,<7",
-        "pros-cli"
+        "pros-cli",
         "setuptools~=56.0.0"
     ],
     entry_points={
